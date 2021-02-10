@@ -36,7 +36,7 @@ namespace GameProject1
                 Discount = 0.25
             };
             GameManager gameManager = new GameManager();
-            gameManager.Sale(user: userManager, game2);
+            gameManager.Sale(user: new User(), game2);
 
             GameManager gameManager1 = new GameManager();
             gameManager1.CampSale(game1, campaign1);

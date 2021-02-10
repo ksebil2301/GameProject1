@@ -1,5 +1,4 @@
-﻿using GameProject1.Campaigns;
-using GameProject1.Entities;
+﻿using GameProject1.Entities;
 using GameProject1.Users;
 using System;
 using System.Collections.Generic;
@@ -19,9 +18,5 @@ namespace GameProject1.GameSale
             Console.WriteLine("Oyun alımı gerçekleşmiştir Sayın "+user.NickName +". Oyuna başlamak için tıklayınız.");
         }
 
-        internal void Sale(UserManager user, Game game1)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
